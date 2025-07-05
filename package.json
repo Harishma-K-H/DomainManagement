@@ -4,10 +4,10 @@
   "type": "commonjs",
   "main": "dist/server.js",
   "scripts": {
-  "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-  "build": "chmod +x ./node_modules/.bin/tsc && tsc",
-  "start": "node dist/server.js"
-},
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "chmod +x ./node_modules/.bin/tsc && tsc",
+    "start": "node dist/server.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
